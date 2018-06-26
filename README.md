@@ -38,9 +38,8 @@ reddit.deleteAccount("atlassubbed", log)
 This will print the error's `message` to stderr, if it exists, otherwise it will print the full result to stdout, if it exists.
 
 ```javascript
-...
-const isDebug = false;
-const log = Logger(isDebug)
+const Logger = require("atlas-basic-logger");
+const log = Logger()
 reddit.deleteAccount("atlassubbed", (err, res) => {
   log(err, res)
 })
