@@ -1,6 +1,8 @@
 # atlas-basic-logger
 
-A very simple debug logger.
+A very simple debug logger. 
+
+[![Travis](https://img.shields.io/travis/atlassubbed/atlas-basic-logger.svg)](https://travis-ci.org/atlassubbed/atlas-basic-logger)
 
 ---
 
